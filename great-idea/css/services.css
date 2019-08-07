@@ -52,7 +52,7 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+html, body,p {
     /* height: 100%; */
 	font-family: 'Titillium Web', sans-serif;
 }
@@ -65,6 +65,9 @@ h1, h2, h3, h4, h5 {
 body{
     border:1px solid red;
     margin:40px 100px 40px 100px;
+}
+p{
+    font-size:16px;
 }
 /*NAV*/
 .nav-container{
@@ -85,12 +88,33 @@ nav a {
 	color:rgba(128,128,128,.5);
 }
 
-/*HEADER + IMG*/
+/*mainTop + IMG*/
 .services-header-img{
-    border:1px solid gold;
     width:100%;
 }
 .mainTop{
-    border:1px solid purple;
     border-bottom:1px solid black;
+    padding:25px 0;
 }
+/*mainMiddle*/
+.mainMiddle{
+    border:1px solid purple;
+}
+.mainMiddle div{
+    border:1px solid purple;
+    padding:5px;
+}
+.mainMiddle button{
+    border:1px solid black;
+    height:30px;
+    width:110px;
+    border-radius:5px;
+    margin-top:10px;
+}
+.mainMiddle-row1, .mainMiddle-row2, .mainMiddle-row3{
+    display:flex;
+    justify-content: space-between;
+    
+    background:#F0F0F0;
+}
+
