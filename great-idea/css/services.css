@@ -68,7 +68,6 @@ body{
 }
 /*NAV*/
 .nav-container{
-    border:1px solid purple;
     margin-bottom:25px;
 	display:flex;
 }
@@ -87,4 +86,11 @@ nav a {
 }
 
 /*HEADER + IMG*/
-
+.services-header-img{
+    border:1px solid gold;
+    width:100%;
+}
+.mainTop{
+    border:1px solid purple;
+    border-bottom:1px solid black;
+}
