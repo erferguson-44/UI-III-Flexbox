@@ -117,4 +117,26 @@ nav a {
     
     background:#F0F0F0;
 }
+/*mainBottom*/
+.mainBottom, div, img{
+    border:1px solid purple;
+}
+.mainBottom-facts, h2, p{
+    border:1px solid purple;
+}
+.mainBottom{
+    display:flex;
+    padding-top:35px;
+}
+.mainBottom p{
+    padding-right:35px;
+}
+
+/*FOOTER*/
+footer{
+    text-align:center;
+    padding-top:50px;
+    font-size:16px;
+    color:gray;
+}
 
