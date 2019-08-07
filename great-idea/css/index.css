@@ -49,12 +49,12 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -71,10 +71,15 @@ body{
 .nav-container{
 	width:100%;
 	margin-bottom:75px;
+	display:flex;
 }
 .nav-container nav, img{
-	display:inline-block;
-	vertical-align: middle;
+	display:flex;
+	flex-direction:
+}
+.nav-container nav{
+	display:flex;
+	align-items:center;
 }
 nav a {
 	margin:0 40px 0 0;
@@ -86,32 +91,36 @@ nav a {
 	margin-left:40px;
 }
 .action-container{
-	text-align:center;
+	border:1px solid purple;
+	display:flex;
+	justify-content: space-evenly;
 	border-bottom: 1px solid black;
 	padding-bottom:75px;
 }
-
-.action-container img, .action-container-inner{
-	display:inline-block;
+.action-container-inner, h1{
+	border:1px solid purple;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-content:center;
 }
+
 .action-container img{
+	border:1px solid purple;
 	margin-left:20px;
 }
-.action-container-inner{
-	display:inline-block;
-	vertical-align: middle;
-	max-width:379px;
-	margin-right:20px;
-}
+
 h1{
 	font-size:96px;
 }
 button{
-	display:block;
+	/* display:block; */
 	margin:0 auto;
 	background:white;
 	border:1px solid black;
-	padding:10px 
+	padding:10px;
+	width:40%;
+	font-size:15px;
 }
 .content-first{
 	display:inline-block;
