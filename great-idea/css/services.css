@@ -62,3 +62,28 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+body{
+	max-width:1024px;
+	margin:40px 100px 40px 100px;
+}
+.nav-container{
+	width:100%;
+	margin-bottom:75px;
+	display:flex;
+}
+.nav-container nav, img{
+	display:flex;
+}
+.nav-container nav{
+	display:flex;
+	align-items:center;
+}
+nav a {
+	margin:0 40px 0 0;
+	color:gray;
+	text-decoration: none;
+	color:rgba(128,128,128,.5);
+}
+.nav-container img{
+	margin-left:40px;
+}
