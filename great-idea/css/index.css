@@ -122,8 +122,15 @@ button{
 	width:40%;
 	font-size:15px;
 }
+.section-top{
+	border:1px solid purple;
+	display:flex;
+	justify-content: center;
+}
 .content-first{
-	display:inline-block;
+	border:1px solid purple;
+	display:flex;
+	flex-direction:column;
 	max-width:45%;
 	margin:40px 0 40px 0;
 }
