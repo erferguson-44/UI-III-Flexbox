@@ -104,11 +104,11 @@ nav a {
 }
 /*mainMiddle*/
 .mainMiddle{
-    display:flex;
-    flex-direction:column;
     border-bottom:2px solid black;
+    /* display:flex;
+    flex-direction:column; */
 }
-.mainMiddle div{
+.mainMiddle div, h3, p{
     padding:5px;
 }
 .mainMiddle button{
@@ -116,41 +116,31 @@ nav a {
     height:30px;
     width:110px;
     border-radius:5px;
-    margin-top:10px;
+    margin:15px 0 15px 15px;
 }
-.mainMiddle-row1, .mainMiddle-row2, .mainMiddle-row3{
+.mainMiddle-row {
     display:flex;
 }
-.mainMiddle-row1 div {
-    margin:25px;
-    background:#F0F0F0;
-    border:1px solid black;
-}
-.mainMiddle-row2 div {
-    margin:25px;
-    background:#F0F0F0;
-    border:1px solid black;
-}
-.mainMiddle-row3 div {
-    margin:25px;
-    background:#F0F0F0;
-    border:1px solid black;
-}
 
+.mainMiddle-row div {
+    background:#F0F0F0;
+    border:1px solid black;
+    margin-top:25px;
+    margin-right:25px;
+    margin-bottom:25px;
+}
 
 /*mainBottom*/
-.mainBottom, div, img{
 
-}
-.mainBottom-facts, h2, p{
-
-}
 .mainBottom{
     display:flex;
     padding-top:35px;
 }
 .mainBottom p{
     padding-right:35px;
+}
+.facts-list li{
+    padding:5px;
 }
 
 /*FOOTER*/
